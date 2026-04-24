@@ -129,10 +129,10 @@ body {
   font-size: 1.05rem; color: var(--text-secondary);
   max-width: 520px; margin-bottom: 2rem; line-height: 1.8;
 }
-.hero-buttons { display: flex; gap: 1rem; flex-wrap: wrap; }
+.hero-buttons { display: flex; gap: 0.8rem; flex-wrap: wrap; }
 .btn {
-  padding: 0.8rem 1.8rem; border-radius: 14px; font-weight: 600;
-  font-size: 0.95rem; text-decoration: none; display: inline-flex;
+  padding: 0.8rem 1.4rem; border-radius: 14px; font-weight: 600;
+  font-size: 0.9rem; text-decoration: none; display: inline-flex;
   align-items: center; gap: 0.5rem; transition: all 0.25s; cursor: pointer;
   border: none; font-family: inherit;
 }
@@ -146,6 +146,11 @@ body {
   border: 1px solid var(--border); box-shadow: var(--shadow-sm);
 }
 .btn-outline:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-2px); }
+.btn-fiverr {
+  background: #1dbf73; color: #fff;
+  box-shadow: 0 8px 25px rgba(29, 191, 115, 0.15);
+}
+.btn-fiverr:hover { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(29, 191, 115, 0.25); color: #fff; }
 
 /* Profile Picture */
 .hero-image-wrapper {
